@@ -68,6 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CalcDemo.aspx" />
+    <Content Include="Demo01\Default.aspx" />
+    <Content Include="Demo02\Default1.aspx" />
+    <Content Include="Demo02\Default2.aspx" />
+    <Content Include="Demo02\Default3.aspx" />
+    <Content Include="Demo02\Default4.aspx" />
+    <Content Include="Demo02\Default5.aspx" />
     <Content Include="HTMLS\CalcDemo.html" />
     <Content Include="HTMLS\Calcuator.html" />
     <Content Include="HTMLS\UserLogin.html" />
@@ -80,6 +86,48 @@
     </Compile>
     <Compile Include="CalcDemo.aspx.designer.cs">
       <DependentUpon>CalcDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo01\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo01\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo02\Default1.aspx.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo02\Default1.aspx.designer.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo02\Default2.aspx.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo02\Default2.aspx.designer.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo02\Default3.aspx.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo02\Default3.aspx.designer.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo02\Default4.aspx.cs">
+      <DependentUpon>Default4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo02\Default4.aspx.designer.cs">
+      <DependentUpon>Default4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo02\Default5.aspx.cs">
+      <DependentUpon>Default5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo02\Default5.aspx.designer.cs">
+      <DependentUpon>Default5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Handlers\CalcHandler.ashx.cs">
       <DependentUpon>CalcHandler.ashx</DependentUpon>
