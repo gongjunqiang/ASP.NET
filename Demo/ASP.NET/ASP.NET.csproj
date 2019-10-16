@@ -74,6 +74,13 @@
     <Content Include="Demo02\Default3.aspx" />
     <Content Include="Demo02\Default4.aspx" />
     <Content Include="Demo02\Default5.aspx" />
+    <Content Include="Demo03\Default.aspx" />
+    <Content Include="Demo04\Default.aspx" />
+    <Content Include="Demo04\ShoopingCart.aspx" />
+    <Content Include="Demo04\UserLogin.aspx" />
+    <Content Include="Demo05\Default.aspx" />
+    <Content Include="Demo06\Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="HTMLS\CalcDemo.html" />
     <Content Include="HTMLS\Calcuator.html" />
     <Content Include="HTMLS\UserLogin.html" />
@@ -129,6 +136,51 @@
     <Compile Include="Demo02\Default5.aspx.designer.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Demo03\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo03\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo04\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo04\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo04\ShoopingCart.aspx.cs">
+      <DependentUpon>ShoopingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo04\ShoopingCart.aspx.designer.cs">
+      <DependentUpon>ShoopingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo04\UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo04\UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo05\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo05\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo06\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo06\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\CalcHandler.ashx.cs">
       <DependentUpon>CalcHandler.ashx</DependentUpon>
     </Compile>
@@ -149,6 +201,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
