@@ -16,7 +16,6 @@ namespace ASP.NET.Demo04
                 List<string> products = new List<string>();
                 Session["Cart"] = products;
             }
-
             if (Session["CurrentUser"] != null)
             {
                 this.ItaMsg.Text = "欢迎您：" + Session["CurrentUser"].ToString();
@@ -29,7 +28,7 @@ namespace ASP.NET.Demo04
 
         protected void btnAddcCart_Click(object sender, EventArgs e)
         {
-
+            Session["CurrentUser1"] = 2;
             if (Session["CurrentUser"] == null)
             {
                 Response.Redirect("UserLogin.aspx");

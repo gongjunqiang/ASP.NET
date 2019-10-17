@@ -18,7 +18,7 @@ namespace ASP.NET.Demo02
 
             string name = Request.Params["name"];
             string age = Request.Params["age"];
-
+            
             this.TextBox1.Text = name;
             this.TextBox2.Text = age;
 

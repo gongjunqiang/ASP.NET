@@ -68,18 +68,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CalcDemo.aspx" />
-    <Content Include="Demo01\Default.aspx" />
-    <Content Include="Demo02\Default1.aspx" />
-    <Content Include="Demo02\Default2.aspx" />
-    <Content Include="Demo02\Default3.aspx" />
-    <Content Include="Demo02\Default4.aspx" />
-    <Content Include="Demo02\Default5.aspx" />
-    <Content Include="Demo03\Default.aspx" />
-    <Content Include="Demo04\Default.aspx" />
-    <Content Include="Demo04\ShoopingCart.aspx" />
-    <Content Include="Demo04\UserLogin.aspx" />
-    <Content Include="Demo05\Default.aspx" />
-    <Content Include="Demo06\Default.aspx" />
+    <Content Include="回发\Default.aspx" />
+    <Content Include="Request与Resopnse\Default1.aspx" />
+    <Content Include="Request与Resopnse\Default2.aspx" />
+    <Content Include="Request与Resopnse\Default3.aspx" />
+    <Content Include="Request与Resopnse\Default4.aspx" />
+    <Content Include="Request与Resopnse\Default5.aspx" />
+    <Content Include="ViewState\Default.aspx" />
+    <Content Include="Session\Default.aspx" />
+    <Content Include="Session\ShoopingCart.aspx" />
+    <Content Include="Session\UserLogin.aspx" />
+    <Content Include="Cookie\Default.aspx" />
+    <Content Include="Application\Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HTMLS\CalcDemo.html" />
     <Content Include="HTMLS\Calcuator.html" />
@@ -94,88 +94,88 @@
     <Compile Include="CalcDemo.aspx.designer.cs">
       <DependentUpon>CalcDemo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo01\Default.aspx.cs">
+    <Compile Include="回发\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo01\Default.aspx.designer.cs">
+    <Compile Include="回发\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo02\Default1.aspx.cs">
+    <Compile Include="Request与Resopnse\Default1.aspx.cs">
       <DependentUpon>Default1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo02\Default1.aspx.designer.cs">
+    <Compile Include="Request与Resopnse\Default1.aspx.designer.cs">
       <DependentUpon>Default1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo02\Default2.aspx.cs">
+    <Compile Include="Request与Resopnse\Default2.aspx.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo02\Default2.aspx.designer.cs">
+    <Compile Include="Request与Resopnse\Default2.aspx.designer.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo02\Default3.aspx.cs">
+    <Compile Include="Request与Resopnse\Default3.aspx.cs">
       <DependentUpon>Default3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo02\Default3.aspx.designer.cs">
+    <Compile Include="Request与Resopnse\Default3.aspx.designer.cs">
       <DependentUpon>Default3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo02\Default4.aspx.cs">
+    <Compile Include="Request与Resopnse\Default4.aspx.cs">
       <DependentUpon>Default4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo02\Default4.aspx.designer.cs">
+    <Compile Include="Request与Resopnse\Default4.aspx.designer.cs">
       <DependentUpon>Default4.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo02\Default5.aspx.cs">
+    <Compile Include="Request与Resopnse\Default5.aspx.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo02\Default5.aspx.designer.cs">
+    <Compile Include="Request与Resopnse\Default5.aspx.designer.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo03\Default.aspx.cs">
+    <Compile Include="ViewState\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo03\Default.aspx.designer.cs">
+    <Compile Include="ViewState\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo04\Default.aspx.cs">
+    <Compile Include="Session\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo04\Default.aspx.designer.cs">
+    <Compile Include="Session\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo04\ShoopingCart.aspx.cs">
+    <Compile Include="Session\ShoopingCart.aspx.cs">
       <DependentUpon>ShoopingCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo04\ShoopingCart.aspx.designer.cs">
+    <Compile Include="Session\ShoopingCart.aspx.designer.cs">
       <DependentUpon>ShoopingCart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo04\UserLogin.aspx.cs">
+    <Compile Include="Session\UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo04\UserLogin.aspx.designer.cs">
+    <Compile Include="Session\UserLogin.aspx.designer.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo05\Default.aspx.cs">
+    <Compile Include="Cookie\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo05\Default.aspx.designer.cs">
+    <Compile Include="Cookie\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Demo06\Default.aspx.cs">
+    <Compile Include="Application\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Demo06\Default.aspx.designer.cs">
+    <Compile Include="Application\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
