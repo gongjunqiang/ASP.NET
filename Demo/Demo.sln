@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET", "ASP.NET\ASP.NET.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{CDED8E9B-8787-46D4-806F-32DFDE5D9200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate", "Validate\Validate.csproj", "{16E1DFCA-B7B3-4558-9219-23DF9352705D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CDED8E9B-8787-46D4-806F-32DFDE5D9200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDED8E9B-8787-46D4-806F-32DFDE5D9200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDED8E9B-8787-46D4-806F-32DFDE5D9200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E1DFCA-B7B3-4558-9219-23DF9352705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E1DFCA-B7B3-4558-9219-23DF9352705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E1DFCA-B7B3-4558-9219-23DF9352705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E1DFCA-B7B3-4558-9219-23DF9352705D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
